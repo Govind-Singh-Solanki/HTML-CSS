@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body
+{
+    height: 100%; 
+} */
+
+.navbar
+{
+    height: 9vh;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.menu
+{
+    padding: 20px;
+    font-size: 18px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+.box1
+{
+    /* height: 90vh; */
+    width: 50vw;
+    background-color: orangered;
+    padding: 10px;
+    /* display: none; */  /*element removed from DOM
+    visibility: hidden; element hidden but space is reserved for that element*/
+}
+
+.box2
+{
+    /* height: 90vh; */
+    width: 50vw;
+    background-color:green;
+    padding: 10px;
+}
+
+.bot
+{
+    font-family: 'Aboreto', cursive;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 11vh;
+    padding: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
